@@ -1,7 +1,7 @@
-﻿{
-  "version": 2,
-  "outputDirectory": "public_html/colour-studio",
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
+  "outputDirectory": "public_html/colour-studio",
   "rewrites": [
     { "source": "/api.php", "destination": "/api/index.js" },
     { "source": "/colour-studio/api.php", "destination": "/api/index.js" },
