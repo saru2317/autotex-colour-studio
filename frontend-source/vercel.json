@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api.php", "destination": "/api/index.js" },
+    { "source": "/colour-studio/api.php", "destination": "/api/index.js" }
+  ]
+}
