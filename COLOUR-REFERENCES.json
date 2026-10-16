@@ -1,0 +1,137 @@
+{
+  "checkedOn": "2026-10-15",
+  "colours": [
+    {
+      "code": "RAL 3020",
+      "hex": "#ab1519",
+      "name": "Traffic Red",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-3020/9143",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 3015",
+      "hex": "#cc9ea4",
+      "name": "Light Pink",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-3015/9139",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 5002",
+      "hex": "#193278",
+      "name": "Ultramarine Blue",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-5002/9166",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 1016",
+      "hex": "#e8e253",
+      "name": "Sulfur Yellow",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-1016/9096",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 1000",
+      "hex": "#c5bb8a",
+      "name": "Green Beige",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-1000/9083",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 4008",
+      "hex": "#7c477d",
+      "name": "Signal Violet",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-4008/9159",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 3016",
+      "hex": "#963d2f",
+      "name": "Coral Red",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-3016/9140",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 9005",
+      "hex": "#131516",
+      "name": "Jet Black",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-9005/9287",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 7005",
+      "hex": "#696d6b",
+      "name": "Mouse Grey",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-7005/9230",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 8012",
+      "hex": "#5c3128",
+      "name": "Red Brown",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-8012/9271",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 1015",
+      "hex": "#ded3b6",
+      "name": "Light Ivory",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-1015/9095",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "RAL 6001",
+      "hex": "#40693a",
+      "name": "Emerald Green",
+      "source": "https://www.ral-farben.de/en/colour/ral-classic/ral-6001/9190",
+      "basis": "RAL public website swatch"
+    },
+    {
+      "code": "PANTONE 1777 C",
+      "hex": "#fb637e",
+      "source": "https://columbiaomnistudio.com/pages/pantone-graphics-colors-hex-rgb-cmyk-chart",
+      "basis": "Dealer-published Solid Coated digital reference; coated finish is provisional"
+    },
+    {
+      "code": "PANTONE 226 C",
+      "hex": "#d0006f",
+      "source": "https://columbiaomnistudio.com/pages/pantone-graphics-colors-hex-rgb-cmyk-chart",
+      "basis": "Dealer-published Solid Coated digital reference; coated finish is provisional"
+    },
+    {
+      "code": "PANTONE 172 C",
+      "hex": "#fa4616",
+      "source": "https://columbiaomnistudio.com/pages/pantone-graphics-colors-hex-rgb-cmyk-chart",
+      "basis": "Dealer-published Solid Coated digital reference; coated finish is provisional"
+    },
+    {
+      "code": "PANTONE 333 C",
+      "hex": "#3cdbc0",
+      "source": "https://columbiaomnistudio.com/pages/pantone-graphics-colors-hex-rgb-cmyk-chart",
+      "basis": "Dealer-published Solid Coated digital reference; coated finish is provisional"
+    },
+    {
+      "code": "PANTONE 375 C",
+      "hex": "#97d700",
+      "source": "https://columbiaomnistudio.com/pages/pantone-graphics-colors-hex-rgb-cmyk-chart",
+      "basis": "Dealer-published Solid Coated digital reference; coated finish is provisional"
+    },
+    {
+      "code": "PANTONE 2562 C",
+      "hex": "#d7a9e3",
+      "source": "https://columbiaomnistudio.com/pages/pantone-graphics-colors-hex-rgb-cmyk-chart",
+      "basis": "Dealer-published Solid Coated digital reference; coated finish is provisional"
+    },
+    {
+      "code": "PANTONE 2975 C",
+      "hex": "#99d6ea",
+      "source": "https://columbiaomnistudio.com/pages/pantone-graphics-colors-hex-rgb-cmyk-chart",
+      "basis": "Dealer-published Solid Coated digital reference; coated finish is provisional"
+    },
+    {
+      "code": "PANTONE 7515 C",
+      "hex": "#c58b68",
+      "source": "https://columbiaomnistudio.com/pages/pantone-graphics-colors-hex-rgb-cmyk-chart",
+      "basis": "Dealer-published Solid Coated digital reference; coated finish is provisional"
+    }
+  ]
+}

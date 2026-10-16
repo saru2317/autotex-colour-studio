@@ -1,0 +1,20 @@
+Autotex Colour Studio — cPanel edition
+
+The frontend includes:
+- React and React DOM 19.2.6 — MIT license (licenses/react.txt and licenses/react-dom.txt).
+  Source: https://github.com/facebook/react
+- Three.js 0.180.0 — MIT license (licenses/three.txt).
+  Source: https://github.com/mrdoob/three.js/tree/r180
+- occt-import-js 0.0.23 and its precompiled OpenCascade importer.
+  License: public_html/colour-studio/cad/LICENSE.md.
+  Corresponding package sources: https://registry.npmjs.org/occt-import-js/-/occt-import-js-0.0.23.tgz
+  Upstream source and build instructions: https://github.com/kovacsv/occt-import-js
+  The importer assets are unmodified and loaded as separate JS/WASM files.
+
+Developer build tooling uses Vite, TypeScript and the Vite React plugin.
+No PHP framework or Composer dependencies are required at runtime.
+
+Brand logo supplied from https://www.autotex.net/ for the requested Autotex website.
+RAL and Pantone are their respective owners' trademarks. This application is not
+an official or certified RAL/Pantone product. Sources for the digital reference
+colours are recorded in COLOUR-REFERENCES.json. The Pantone Coated finish is provisional.

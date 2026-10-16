@@ -1,0 +1,12 @@
+﻿{
+  "version": 2,
+  "outputDirectory": "public_html/colour-studio",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api.php", "destination": "/api/index.js" },
+    { "source": "/colour-studio/api.php", "destination": "/api/index.js" },
+    { "source": "/colour-studio", "destination": "/index.html" },
+    { "source": "/colour-studio/", "destination": "/index.html" },
+    { "source": "/colour-studio/(.*)", "destination": "/$1" }
+  ]
+}

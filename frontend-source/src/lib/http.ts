@@ -1,0 +1,3 @@
+export function apiUrl(action:string){return new URL('api.php?action='+encodeURIComponent(action),document.baseURI).href;}
+export function csrfToken(){return document.querySelector<HTMLMetaElement>('meta[name="csrf-token"]')?.content||'';}
+export async function request(url:string,options:RequestInit={}){const headers=new Headers(options.headers);if(options.method&&options.method.toUpperCase()!=='GET')headers.set('X-CSRF-Token',csrfToken());const r=await fetch(url,{...options,headers,credentials:'same-origin'});if(r.status===401){location.href=new URL('admin.php?expired=1',document.baseURI).href;throw Error('Your session expired. Sign in again.');}return r;}

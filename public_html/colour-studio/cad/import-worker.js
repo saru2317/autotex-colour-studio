@@ -1,0 +1,3 @@
+/* OpenCascade runs off the UI thread. */
+let importer;
+self.onmessage=async({data})=>{try{if(!importer){importScripts('occt-import-js.js');importer=occtimportjs({locateFile:path=>new URL(path,self.location.href).href});}const occt=await importer;const result=occt.ReadStepFile(new Uint8Array(data),{linearUnit:'millimeter',linearDeflectionType:'bounding_box_ratio',linearDeflection:0.001,angularDeflection:0.5});if(!result.success||!result.meshes?.length)throw Error('No usable geometry was found in this STEP file.');self.postMessage({success:true,meshes:result.meshes});}catch(e){self.postMessage({success:false,error:e.message||'STEP conversion failed.'});}};

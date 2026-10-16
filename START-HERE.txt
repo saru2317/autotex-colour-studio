@@ -1,0 +1,17 @@
+AUTOTEX — PHP / CPANEL EDITION
+
+Open INSTALL.html for illustrated installation instructions.
+
+1. Extract this package in your cPanel Home directory, outside public_html.
+2. Put autotex-private alongside public_html, not inside it.
+3. Copy public_html/colour-studio into your site's existing public_html folder.
+   Include hidden .htaccess and .user.ini files.
+4. Enable PHP 8.3 or later (minimum 8.2) and HTTPS.
+5. Open https://YOUR-DOMAIN/colour-studio/setup.php and create your admin account
+   using the private setup key in autotex-private/setup-key.txt.
+6. Sign in at /colour-studio/admin.php, upload a STEP model, choose colours and save.
+
+No Node.js, database, Composer, Cloudflare or ChatGPT account is needed on the server.
+A developer-only frontend-source folder is included for future changes.
+Do not place this ZIP, the private folder, or your backups in the public website folder.
+The package is a fresh installation. Hosted preview uploads are not included.

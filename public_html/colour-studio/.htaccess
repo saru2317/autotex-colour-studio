@@ -1,0 +1,11 @@
+Options -Indexes
+DirectoryIndex index.php
+<FilesMatch "^(paths\.php|shell\.html|asset-manifest\.json|\.)">
+    Require all denied
+</FilesMatch>
+<IfModule mod_mime.c>
+    AddType application/wasm .wasm
+</IfModule>
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+</IfModule>

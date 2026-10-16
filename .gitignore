@@ -1,0 +1,9 @@
+﻿node_modules/
+.vercel/
+dist/
+.DS_Store
+Thumbs.db
+*.log
+autotex-private/sessions/
+autotex-private/data/attempts.*
+autotex-private/data/*.tmp
